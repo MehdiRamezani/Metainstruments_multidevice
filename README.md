@@ -1,4 +1,5 @@
 # Metainstruments_multidevice
+# Using qcodes
 ## With this class you can read data points from multiple devices and plot them against each others
 
 # here is the class:
