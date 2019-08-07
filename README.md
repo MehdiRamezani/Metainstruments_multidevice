@@ -31,6 +31,6 @@ class conductance_from_agilent(qc.MultiParameter):
         R_2t = real_voltage / agilent_current
        
         return (R_2t , G_2t, agilent_current, voltage , real_voltage)
-
-# Here you can set the parameters, there for place it in a separate cell
+        
+#Here you can set the parameters, there for place it in a separate cell
 DC_Resistance = conductance_cur_from_agilent(IV_gain=1e6,agilent_handle=agilent1 , scale_param = 1e-3 , dc_source = yoko.voltage)
